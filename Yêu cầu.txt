@@ -1,0 +1,14 @@
+1/ Tạo 1 trang tìm kiếm với chức năng thực hiện được các hành động được đưa ra trong yêu cầu của người dùng.
+2/ Với tư cách là người dùng, tôi có thể thực hiện tìm kiếm từ khóa
+Tìm kiếm theo từ khóa sẽ lọc chỉ dựa trên tiêu đề sản phẩm
+3/ Là người dùng, tôi có thể lọc theo danh mục
+4/ Là người dùng, tôi có thể lọc theo giá tối thiểu và tối đa
+Dựa trên nhỏ hơn / lớn hơn hoặc bằng
+5/ Là người dùng, tôi có thể lọc các sản phẩm cao cấp
+6/ Là một người dùng, tôi có thể phân trang các kết quả tìm kiếm
+Mỗi trang phải chứa 24 sản phẩm theo mặc định
+7/ select category: lựa chọn theo danh mục.
+8/ price filter" bộ lọc giá
+9/ select by location/ lựa chọn theo vị trí.
+10/ select supplier/ lựa chọn theo nhà cung cấp
+11/ premium products/ các sản phẩm cao cấp

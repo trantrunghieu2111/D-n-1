@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+}
+
+
+
+/* #wrapper #container {
+    width: auto;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#container > li {
+    position: relative;
+    height: 50px;
+    width: 202px;
+    list-style-type: none;
+    vertical-align: middle;
+    /* background-color: aquamarine; */
+    /* border-radius: 5px; */
+    /* border-style:none;
+    box-shadow: 0 0 4px rgb(0 0 0 / 25%);  */
+    /* position: relative; */
+    /* display:flex ;
+    /* Căn giữa theo chiều ngang */
+    /* justify-content: center; 
+    /* Căn giữa theo chiều dọc */
+    /* align-items: center;
+     /* */ 
+/* } */ 
+body{
+    background: rgb(185, 228, 231);
+}
+#container {
+    width: 100%;
+    margin: 50px auto;
+    height: 50px;
+}
+
+#container ul#root {
+    margin: 0px;
+    padding: auto;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+#container ul#root > li {
+    position: relative;
+    height: 50px;
+    background: #fff;
+    
+    border:1px solid rgb(185, 228, 231);
+    
+}
+
+#container #root > li > a::after{
+    content: '';
+    width: 0;
+    height: 0;
+    border-top: 6px solid #333;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+#container ul#root >li > ul#sub {
+    position: absolute;
+    left: 0px;
+    top: 50px;
+    list-style: none;
+    display: none;
+ 
+    /* background: rgb(187, 127, 127); */
+    list-style: none;
+    
+    width: 100%;
+    text-align: center;
+}
+
+#container ul#root >li > ul#sub >li{
+    height: 30px;
+    list-style-type: none;
+    
+    border: none;
+    outline: none;
+    background: rgb(144, 187, 190);
+    border: 1px solid rgb(167, 206, 169);
+} 
+
+#container ul#root >li > ul#sub >li >a{
+    text-decoration: none;
+    line-height: 30px;
+}
+
+#container ul#root >li > ul#sub >li >a::after{
+    content: '';
+    width: 0;
+    height: 0;
+    border-top: 6px solid transparent;
+    border-left: 6px solid transparent;
+    border-right: 6px solid #333;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5px;
+    cursor: pointer;
+}
+#container ul#root >li > ul#sub >li >a:hover{
+    font-size: 16px;
+    color: blueviolet;
+}
+
+
+
+#container ul#root li:hover ul#sub{
+    display: block;
+}
+
+#container #root >li >a:hover{
+    color:brown;
+    font-size: 24px;
+}
+
+#container ul#root > li > a {
+   
+    display: block;
+    height: 50px;
+    text-decoration: none;
+    color: black;
+    line-height: 50px;
+    padding: 0px 20px 0px 20px;
+}
+
+#container ul#root > li >a:hover {
+    background-color: aquamarine;
+}
+div#container{
+    margin: 0px;
+}
+
+div.headline{
+    margin: 25px 25px;
+}
+
+
+
+.headline h3{
+    display: block;
+}
+
+
+
+h3{
+    font-size: 18px;
+    color: darkgreen;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: 1px solid rgb(10, 8, 8);
+    display: inline-block;
+}
+.headline{
+    text-align:center;
+    margin: 40px 0px;
+}
+#tieu-de-dau-trang > p{
+    font-size: 25px;
+    text-align: center;
+    color: rgb(99, 88, 117);
+    margin: 10px;
+    font-weight: bolder;
+}
+
+ul#products{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 15px;
+    padding-right: 15px;
+    justify-content: space-between;
+}
+ li.product{
+     flex-basis: 25%;
+     list-style: none;
+     padding-left: 15px;
+     padding-right: 15px;
+     box-sizing: border-box;
+     margin-bottom: 30px;
+ }
+
+ li.product .product-top{
+     width: 100%;
+     height: 80%;
+     margin-bottom: 15px;
+ }
+ li.product .product-bottom{
+    width: 100%;
+    height: 20%;
+    
+}
+.product-infor, .product-price, .product-supplier{
+    margin-bottom: 3px;
+    box-sizing: border-box;
+}
+
+li.product .product-top img{
+    width: 100%;
+    height: 100%;
+}
+
+li.product .product-bottom .product-price {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+li.product .product-bottom .product-price p{
+    flex-basis: 50%;
+}
+
+#container #root >li#timkiem{
+    line-height: 50px;
+    background: #fff;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+}
+#container #root >li#timkiem > form{
+    background: #fff;
+    height: 100%;
+}
+#container #root >li#timkiem > form > input{
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#container #root >li#timkiem > form > button{
+    border: none;
+    outline: none;
+    background: transparent;
+}

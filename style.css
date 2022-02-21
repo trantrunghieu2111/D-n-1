@@ -36,7 +36,8 @@
      /* */ 
 /* } */ 
 body{
-    background: rgb(185, 228, 231);
+    background: #E6E6E6;
+
 }
 #container {
     width: 100%;
@@ -52,12 +53,16 @@ body{
     justify-content: center;
 }
 
+#container ul#root > li#menudacap{
+    border-radius: 5px 0px 0px 5px;
+}
+
 #container ul#root > li {
     position: relative;
     height: 50px;
-    background: #fff;
+    background: #ffffff;
     
-    border:1px solid rgb(185, 228, 231);
+    border:1px solid #fafafa;
     
 }
 
@@ -232,11 +237,13 @@ li.product .product-bottom .product-price p{
     margin: 0;
     padding: 0;
     height: 100%;
+    border-radius: 0px 5px 5px 0px;
 }
 
-}
+
 #container #root >li#timkiem > form{
     background: #fff;
+    border-radius: 0px 5px 5px 0px;
     height: 100%;
 }
 #container #root >li#timkiem > form > input{
@@ -250,3 +257,4 @@ li.product .product-bottom .product-price p{
     outline: none;
     background: transparent;
 }
+
